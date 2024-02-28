@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dezoomcampcohort2024
+    schema: ny_taxi
+
+    tables:
+      - name: yellow_cab_partitoned
